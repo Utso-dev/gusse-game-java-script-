@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff;
+}
+
+#game{
+    width: 40%;
+    padding: 30px 0;
+    background-color: #fff;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.start{
+    text-align: center;
+}
+
+.start h1{
+    color: green;
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+.start a{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    font-size: 100px;
+    background-color: transparent;
+    border: 1px solid green;
+    color: darkred;
+    line-height: 350px;
+    text-transform: uppercase;
+    transition: all ease-in-out .3s;
+}
+
+.start a:hover{
+    background-color: lightgreen;
+    color: #fff;
+}
+
+.content h3{
+    font-size: 24px;
+    color: green;
+    text-transform: uppercase;
+}
+
+.field{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.content .field input{
+    width: 300px;
+    height: 30px;
+    background-color: transparent;
+    border: 2px solid green;
+    padding-left: 20px;
+    color: green;
+    font-size: 20px;
+    line-height: 100%;
+    border-radius: 10px;
+}
+
+.content .field a{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 2px solid green;
+    color: green;
+    font-size: 24px;
+    line-height: 80px;
+    text-align: center;
+    transition: all linear .3s;
+    
+}
+
+.content .field a:hover{
+    background-color: lightgreen;
+    color: darkblue;
+}
+
+.content p{
+    font-size: 20px;
+}
+
+.player1, .player2{
+    display: none;
+}

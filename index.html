@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Game Show</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <section id="game">
+        <div class="start">
+            <h1>Lets Play The Game</h1>
+            <a onclick="startgame()" class="startbtn" href="#">Start</a>
+        </div>
+
+        <div class="content player1">
+            <h3 class="player1_title">Player 01</h3>
+            <div class="field">
+                <input class="player1_input" type="text">
+                <a class="player1_btn" href="#">Start</a>  
+            </div>
+            <p class="player1_error"></p>
+        </div>
+        
+        <div class="content player2">
+            <h3 class="player2_title">Player 02</h3>
+            <div class="field">
+                <input class="player2_input" type="text">
+                <a class="player2_btn" href="#">Guess</a>  
+            </div>
+            <p class="player2_error"></p>
+        </div>
+
+        <div class="end"></div>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
